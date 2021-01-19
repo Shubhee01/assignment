@@ -1,0 +1,91 @@
+h1 {
+    text-align: center;
+    padding-bottom:40px ;
+    padding-top:20px ;
+}
+.container {
+    width: 100%;
+    height: auto;
+    padding-left: 10px;
+    float:left;
+    
+} 
+.border {
+    width: 30.5%;
+    height: auto;
+    background-color: grey;
+    margin: 18px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    padding-left: 8px;
+    float: left;
+}
+.border p{
+  margin:9% 3% 3% 3%;
+}
+.heading {
+    text-align: right;
+    margin: 0px;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    float:right;
+    font-size: 20px;
+    padding:2px 2px 2px 4px;
+}
+#cont1 {
+    padding-right: 20px;
+    background-color: pink;
+}
+#cont2 {
+    padding-right: 35px;
+    background-color: red;
+    
+}
+#cont3 {
+    padding-right: 30px;
+    background-color: palegoldenrod;
+}
+
+@media (min-width:991px) and (max-width:1399.98px){
+  .border{
+    width:40%;
+  }
+  h1 {
+    margin-right:9%;
+  }
+  
+
+}
+
+@media (min-width:767px) and (max-width:991.98px){
+  .border{
+    width:60%;
+  }
+  .container{
+    margin-left:15%;
+  }
+
+}
+@media (min-width:425px) and (max-width:766.98px){
+  .border{
+    width: 80%;
+  }
+  .container{
+    margin-left:10%;
+  }
+  .border p{
+    margin-top:8%;
+  }
+}
+@media (min-width:325px) and (max-width:424.98px){
+    .border{
+      width: 80%;
+    }
+    .container{
+      margin-left:3%;
+    }
+    .border p{
+      margin-top:12%;
+    }
+
+}
